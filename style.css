@@ -1,0 +1,163 @@
+/*General*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
+.tete
+{
+    height: 5.625rem;
+    background: #FF4B4B;
+}
+/*Header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-top: 1.25rem;
+}
+header h1{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Imbue', serif;
+    cursor: pointer;
+    color: #FFF;
+}
+nav ul li {
+    display: inline-block;
+    padding: 13px 50px 0 0;
+    
+}
+nav ul li a{
+    color: #FFF;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.main_page{
+    height: 450px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(image/touriste.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.main_page .texte{
+    width: 90%;
+    margin: auto;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;/*item a revoir*/
+    align-content: center;
+    padding-top: 105px;
+}
+.main_page .texte h1{
+    font-size: 40px;
+}
+.main_page p{
+    margin-top: 35px;
+    width: 450px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
+/*2ieme part*/
+.texte1{
+    width: 90%;
+    margin: auto;
+}
+.part .un{
+    padding-top: 25px;
+}
+.part .un p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.part .un h3{
+    padding-top: 10px;
+    font-size: 35px;
+}
+.part .deux{
+    width: 260px;
+    padding-top: 25px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.texte1 .part{
+    display: flex;
+    justify-content: space-between;
+}
+/*2ieme part publication*/
+.publ1{
+    width: 350px;
+}
+.texte2{
+    display: flex;
+    justify-content: space-between;
+}
+.texte2 img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    padding: 20px 0;
+}
+.section1{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(image/foret.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+.last_part {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+.last_part h3{
+    font-size: 35px;
+    clear: both;
+    color: white;
+}
+.last_part .deux {
+    width: 240px;
+    text-align: justify;
+    padding: 15px 15px;
+    color: #FFF;
+}
+.last_part .button{
+    border: 1px solid #FFF;
+    width: 150px;
+    background-color: #FFF;
+    border-radius: 5px;
+}
+.last_part .button a{
+    color: #000;
+    text-decoration: none;
+    padding: 15px 20px ;
+}
+.last_part .button a:hover{
+    color: #FF4B4B;
+}
+.footer{
+    width: 90%;
+    margin: auto;
+    height: 100px;
+    padding-top: 25px;
+}
+.footer p{
+    
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.footer h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+}
